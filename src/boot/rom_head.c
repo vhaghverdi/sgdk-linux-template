@@ -36,7 +36,7 @@ const ROMHeader rom_header = {
 #if (ENABLE_BANK_SWITCH != 0)
     0x003FFFFF,
 #else
-    0x000FFFFF, /* ROM End Address (4) */
+    0x000FFFFF,
 #endif
     0x00FF0000,
     0x00FFFFFF,

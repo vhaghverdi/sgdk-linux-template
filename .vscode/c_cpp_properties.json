@@ -2,7 +2,7 @@
   "configurations": [
     {
       "name": "SGDK Linux",
-      "includePath": ["${env:GDK}/**", "res"],
+      "includePath": ["${env:GDK}/**", "res", "inc"],
       "intelliSenseMode": "linux-gcc-x64"
     }
   ],
